@@ -24,6 +24,5 @@ if(i == "d"):
     mef = input("Message: ")
     kef = input("Key: ")
     if(ke == kef):
-        print("Faggot")
 if(i == "q"):
     print("Goodbye")
