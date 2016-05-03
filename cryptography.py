@@ -20,8 +20,8 @@ if(i != e or i != d or i != q):
 if(i == e):
     me = input("Message: ")
     ke = input("Key: ")
-if(i = d):
+if(i == d):
     me = input("Message: ")
     ke = input("Key: ")
-if(i = q):
+if(i == q):
     print("Goodbye")
