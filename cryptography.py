@@ -15,13 +15,15 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 
 
 i = input("Enter e to encrypt, d to decrypt, or q to quit: ")
-if(i != e or i != d or i != q):
+if(i != "e" or i != "d" or i != "q"):
     print("Did not understand command, try again.")
-if(i == e):
+if(i == "e"):
     me = input("Message: ")
     ke = input("Key: ")
-if(i == d):
-    me = input("Message: ")
-    ke = input("Key: ")
-if(i == q):
+if(i == "d"):
+    mef = input("Message: ")
+    kef = input("Key: ")
+    if(ke == kef):
+        print("Faggot")
+if(i == "q"):
     print("Goodbye")
